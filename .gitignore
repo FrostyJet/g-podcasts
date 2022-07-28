@@ -18,16 +18,16 @@ env/.env
 
 *.bak
 
-resources/html
+resources/html/
 !resources/html/.gitkeep
 
-resources/images
+resources/images/
 !resources/images/.gitkeep
 
-resources/metadata
+resources/metadata/
 !resources/metadata/.gitkeep
 
-resources/tracks
+resources/tracks/
 !resources/tracks/.gitkeep
 
 
