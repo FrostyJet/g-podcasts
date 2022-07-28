@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -22,6 +23,10 @@ func main() {
 	files := getPodcastsToPersist()
 
 	for _, f := range files {
+		if strings.Contains(f.Name(), ".json") {
+			continue
+		}
+
 		p := createPodcastFromFile(fmt.Sprintf("%s/%s", filesPath, f.Name()))
 
 		podcastID := savePodcast(&p)
