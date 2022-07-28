@@ -18,6 +18,8 @@ env/.env
 
 *.bak
 
+resources/**/*
+!resources/**/.gitkeep
 
 
 # Dependency directories (remove the comment below to include it)
