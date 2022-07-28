@@ -15,11 +15,8 @@ env/.env
 
 .vscode
 
-resources/*
-!resources/html/
-!resources/images/
-!resources/metadata/
-!resources/tracks/
+*.bak
+
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
