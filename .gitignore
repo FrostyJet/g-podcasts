@@ -14,9 +14,21 @@
 env/.env
 
 .vscode
+.DS_Store
 
 *.bak
 
+resources/html/
+!resources/html/.gitkeep
+
+resources/images/
+!resources/images/.gitkeep
+
+resources/metadata/
+!resources/metadata/.gitkeep
+
+resources/tracks/
+!resources/tracks/.gitkeep
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
